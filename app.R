@@ -164,7 +164,7 @@ ui <- dashboardPage(
     ),
     
     fluidRow(
-      h2("Suivi congés Staff"),
+      h2("Suivi congés Staff GeoA"),
       # Chaque information est dans une 'box' individuelle avec sa propre sortie UI
       column(width = 3, uiOutput("info_fonction")),
       column(width = 3, uiOutput("info_jours_pris")),
