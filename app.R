@@ -16,12 +16,7 @@ library(fullcalendar) # Utilisation du package 'fullcalendar'
 # --- UI (User Interface) : Ce que l'utilisateur voit ---
 ui <- dashboardPage(
   dashboardHeader(
-    title = tags$a(href = 'Suivi congés Staff', # Lien facultatif si vous cliquez sur le logo
-                   tags$img(src = 'Logo transparent Blanc GeoA.png', # REMPLACEZ PAR LE NOM DE VOTRE FICHIER LOGO
-                            height = '40', # Ajustez la hauteur selon vos besoins
-                            width = 'auto', # Conserve les proportions
-                            style = "margin-top: 0px; margin-left: 0px;")) # Ajustez la position si nécessaire
-  ),
+    title = 'Suivi congés Staff'),
   dashboardSidebar(
     selectInput(
       inputId = "select_employe",
@@ -46,7 +41,7 @@ ui <- dashboardPage(
 
         /* Style pour le header (barre de titre) */
         .main-header .logo {
-          background-color: #a26328 !important;
+          background-color: #996633 !important;
           color: #ecf0f1 !important;
           font-weight: bold;
           font-size: 20px;
@@ -63,7 +58,7 @@ ui <- dashboardPage(
 
         /* Style pour la sidebar (barre latérale) */
         .main-sidebar {
-          background-color: #a26328 !important;
+          background-color: #654422 !important;
         }
         .sidebar-menu li a {
           color: #ecf0f1 !important;
@@ -164,7 +159,7 @@ ui <- dashboardPage(
     ),
     
     fluidRow(
-      h2("Suivi congés Staff GeoA"),
+     
       # Chaque information est dans une 'box' individuelle avec sa propre sortie UI
       column(width = 3, uiOutput("info_fonction")),
       column(width = 3, uiOutput("info_jours_pris")),
