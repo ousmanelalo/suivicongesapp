@@ -13,7 +13,6 @@ library(stringr)     # Pour str_extract
 library(DT)          # Pour les tableaux interactifs
 library(fullcalendar) # Utilisation du package 'fullcalendar'
 
-Suivi congés Staff GeoA
 # --- UI (User Interface) : Ce que l'utilisateur voit ---
 ui <- dashboardPage(
   dashboardHeader(
@@ -179,7 +178,7 @@ ui <- dashboardPage(
         title = "Détails et Historique des congés", # Titre du tabBox
         id = "tabset1", height = "600px", width = 12, # Ajustez la hauteur si nécessaire
         tabPanel("Graphique jours pris",
-                 h3("Détail des jours pris par période"),
+                 h3("Détail des Jours Pris par Période"),
                  box(
                    title = "Jours pris par mois et semaine",
                    status = "primary",
