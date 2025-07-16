@@ -13,6 +13,7 @@ library(stringr)     # Pour str_extract
 library(DT)          # Pour les tableaux interactifs
 library(fullcalendar) # Utilisation du package 'fullcalendar'
 
+Suivi congés Staff GeoA
 # --- UI (User Interface) : Ce que l'utilisateur voit ---
 ui <- dashboardPage(
   dashboardHeader(
