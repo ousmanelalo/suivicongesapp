@@ -41,7 +41,7 @@ ui <- dashboardPage(
 
         /* Style pour le header (barre de titre) */
         .main-header .logo {
-          background-color: #996633 !important;
+          background-color: #a26328 !important;
           color: #ecf0f1 !important;
           font-weight: bold;
           font-size: 20px;
