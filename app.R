@@ -16,7 +16,7 @@ library(fullcalendar) # Utilisation du package 'fullcalendar'
 # --- UI (User Interface) : Ce que l'utilisateur voit ---
 ui <- dashboardPage(
   dashboardHeader(
-    title = tags$a(href = 'https://docs.google.com/spreadsheets/d/1cCDD5tIA23P7-ftVwfu-lI_Jk8zbO2T-fcWeNJPPZFc/edit?usp=sharing', # Lien facultatif si vous cliquez sur le logo
+    title = tags$a(href = 'Suivi congés Staff', # Lien facultatif si vous cliquez sur le logo
                    tags$img(src = 'Logo transparent Blanc GeoA.png', # REMPLACEZ PAR LE NOM DE VOTRE FICHIER LOGO
                             height = '40', # Ajustez la hauteur selon vos besoins
                             width = 'auto', # Conserve les proportions
